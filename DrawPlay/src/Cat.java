@@ -33,7 +33,7 @@ public class Cat {
 		g2.setColor(Color.green);
 		x = catX + EYE_X; 
 		y = catY + EYE_Y;
-		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
+		//g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
 		x += EYE_SEPARATION;
 		g2.fillOval(x, y, EYE_HEIGHT, EYE_WIDTH);
 		// Draw the mouth
